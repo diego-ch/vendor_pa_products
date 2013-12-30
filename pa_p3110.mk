@@ -17,7 +17,7 @@ ifeq (pa_p3110,$(TARGET_PRODUCT))
 PREFS_FROM_SOURCE ?= false
 
 # Include AOSPA common configuration
-include vendor/pa/main.mk
+include vendor/pa/system.mk
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/samsung/p3110/full_p3110.mk)
