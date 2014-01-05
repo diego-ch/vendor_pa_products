@@ -6,7 +6,7 @@ PREFS_FROM_SOURCE ?= false
 $(call inherit-product, vendor/pa/configs/telephony.mk)
 
 # Include AOSPA common configuration
-include vendor/pa/system.mk
+include vendor/pa/main.mk
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/samsung/p3100/full_p3100.mk)
