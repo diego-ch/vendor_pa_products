@@ -12,6 +12,9 @@ $(call inherit-product, device/samsung/janice/janice.mk)
 # Inherit device configuration
 $(call inherit-product, device/samsung/janice/full_janice.mk)
 
+# Include AOSPA common configuration
+include vendor/pa/main.mk
+
 # Setup device specific product configuration.
 PRODUCT_DEVICE := janice
 PRODUCT_NAME := pa_janice
