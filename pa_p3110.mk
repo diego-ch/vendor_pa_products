@@ -27,8 +27,12 @@ PRODUCT_NAME := pa_p3110
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := GT-P3110
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=espressowifixx TARGET_DEVICE=espressowifi BUILD_FINGERPRINT="samsung/espressowifixx/espressowifi:4.0.3/IML74K/P3110XWALD2"
-PRIVATE_BUILD_DESC="espressowifixx-user 4.0.3 IML74K P3110XWALD2 release-keys"
+#Set build fingerprint / ID / Prduct Name ect.
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=espressowifixx \
+    TARGET_DEVICE=espressowifi \
+    BUILD_FINGERPRINT="samsung/espressowifixx/espressowifi:4.2.2/JDQ39/P3110XXDMH1:user/release-keys" \
+    PRIVATE_BUILD_DESC="espressowifixx-user 4.2.2 JDQ39 P3110XXDMH1 release-keys"
 
 PRODUCT_RELEASE_NAME := GT-P3110
 endif
