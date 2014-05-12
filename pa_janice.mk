@@ -6,6 +6,8 @@ PREFS_FROM_SOURCE ?= false
 $(call inherit-product, vendor/pa/configs/telephony.mk)
 
 # Include AOSPA common configuration
+$(call inherit-product, vendor/pa/main.mk)
+
 # Inherit AOSP device configuration for galaxys advance.
 $(call inherit-product, device/samsung/janice/janice.mk)
 
